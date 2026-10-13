@@ -2,7 +2,7 @@
 'use strict';
 var root=document.documentElement;
 if(matchMedia('(prefers-reduced-motion:reduce)').matches||!('IntersectionObserver' in window)){root.classList.remove('js');return;}
-var extra='.sc-head>div,.intro-grid>div,.sticky-copy,.connect-grid>div:first-child,.gc,.stat,.concept,.contact>div,.two>div,.eyebrow+h2';
+var extra='.sc-head>div,.intro-grid>div,.sc-copy,.connect-grid>div:first-child,.gc,.stat,.concept,.contact>div,.two>div,.eyebrow+h2';
 document.querySelectorAll(extra).forEach(function(el){
   if(el.closest('.hero')||el.classList.contains('reveal-clip'))return;
   el.classList.add('reveal');

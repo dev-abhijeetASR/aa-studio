@@ -43,7 +43,7 @@ a{color:inherit}
 .btn.sm{padding:10px 16px;font-size:14px}
 
 /* section rhythm */
-.sec{padding-block:clamp(64px,9vw,120px);position:relative}
+.sec{padding-block:clamp(44px,6.2vw,88px);position:relative}
 .sec.dark{background:var(--ink);color:var(--on-dark)}
 .sec.paper{background:var(--paper)}
 .sec.white{background:var(--white)}
