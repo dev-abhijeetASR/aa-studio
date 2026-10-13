@@ -3,46 +3,33 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#06100F">
-<meta property="og:title" content="AA Studio">
-<meta property="og:description" content="Websites, mobile apps and SaaS products from Mumbai. 10+ years of experience.">
-<meta property="og:type" content="website">
-<meta name="description" content="AA Studio, Mumbai: websites, mobile apps and SaaS products. 10+ years of experience.">
 <title>AA Studio</title>
+<meta name="description" content="AA Studio, Mumbai: websites, mobile apps, SaaS and business software. 10+ years of experience.">
+<meta name="theme-color" content="#07110F">
+<meta property="og:title" content="AA Studio">
+<meta property="og:description" content="Websites, mobile apps, SaaS and business software from Mumbai. 10+ years of experience.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:wght@400;500;700&display=swap">
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/base.css?v=3">
+<link rel="stylesheet" href="css/devices.css?v=3">
+<link rel="stylesheet" href="css/showcases.css?v=3">
 </head>
 <body>
-<!-- icon + logo sprite -->
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
-  <symbol id="i-web" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></symbol>
-  <symbol id="i-mobile" viewBox="0 0 24 24"><rect x="7" y="2.5" width="10" height="19" rx="2.5"/><path d="M11 18.5h2"/></symbol>
-  <symbol id="i-saas" viewBox="0 0 24 24"><path d="M12 3 3 8l9 5 9-5-9-5Z"/><path d="m3 13 9 5 9-5M3 17.5l9 5 9-5" opacity=".6"/></symbol>
-  <symbol id="i-biz" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18"/></symbol>
-  <symbol id="i-ai" viewBox="0 0 24 24"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M18 6l-2.5 2.5M8.5 15.5 6 18"/><circle cx="12" cy="12" r="2.5"/></symbol>
-  <symbol id="i-wrench" viewBox="0 0 24 24"><path d="M14.5 6.5a4 4 0 0 0 5 5L10 21a2.1 2.1 0 0 1-3-3l9.5-9.5"/><path d="M14.5 6.5a4 4 0 0 1 5-3l-2.5 2.5 1 2 2 1 2.5-2.5"/></symbol>
-  <symbol id="i-pen" viewBox="0 0 24 24"><path d="M4 20l1-4L16.5 4.5a2 2 0 0 1 3 3L8 19l-4 1Z"/><path d="m14 7 3 3"/></symbol>
-  <symbol id="i-code" viewBox="0 0 24 24"><path d="m8 7-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></symbol>
-  <symbol id="i-plug" viewBox="0 0 24 24"><path d="M9 3v5M15 3v5M6 8h12v3a6 6 0 0 1-12 0V8ZM12 17v4"/></symbol>
-  <symbol id="i-cloud" viewBox="0 0 24 24"><path d="M7 18a4.5 4.5 0 0 1-.6-8.96A6 6 0 0 1 18 9.5 4 4 0 0 1 17.5 18H7Z"/></symbol>
-  <symbol id="i-rocket" viewBox="0 0 24 24"><path d="M5 19c0-3 1-4 2-5M14 4c4 0 6 2 6 6-2.5 3-5 5-8 6l-4-4c1-3 3-6 6-8Z"/><circle cx="15" cy="9" r="1.5"/><path d="M8 16l-3 3M10.5 20.5l-1-3.5"/></symbol>
-  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 4.5 6v6c0 4.5 3 7.5 7.5 9 4.5-1.500 7.500-4.500 7.500-9V6L12 3Z"/><path d="m9 12 2 2 4-4"/></symbol>
-  <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.2"/></symbol>
-  <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2 12s3.500-7 10-7 10 7 10 7-3.500 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></symbol>
-  <symbol id="i-key" viewBox="0 0 24 24"><circle cx="8" cy="15" r="4"/><path d="m11 12 9-9M16 7l3 3M14 9l2 2"/></symbol>
-  <symbol id="i-growth" viewBox="0 0 24 24"><path d="M3 20h18M5 16l5-5 4 3 6-8"/><path d="M15 6h5v5"/></symbol>
-  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.200-7-11.500a7 7 0 0 1 14 0C19 14.800 12 21 12 21Z"/><circle cx="12" cy="9.500" r="2.500"/></symbol>
-  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  <symbol id="i-call" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></symbol>
   <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
-  <symbol id="i-call" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.500 1.500a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></symbol>
-  <symbol id="i-db" viewBox="0 0 24 24"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v6c0 1.700 3.600 3 8 3s8-1.300 8-3V6M4 12v6c0 1.700 3.600 3 8 3s8-1.300 8-3v-6"/></symbol>
-  <symbol id="i-layout" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M9 9v11"/></symbol>
-  <symbol id="i-tools" viewBox="0 0 24 24"><path d="M4 7h10M18 7h2M4 17h2M10 17h10"/><circle cx="16" cy="7" r="2"/><circle cx="8" cy="17" r="2"/></symbol>
-  <!-- AA mark: two interlocking A's -->
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  <symbol id="i-key" viewBox="0 0 24 24"><circle cx="8" cy="15" r="4"/><path d="m11 12 9-9M16 7l3 3M14 9l2 2"/></symbol>
+  <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></symbol>
+  <symbol id="i-growth" viewBox="0 0 24 24"><path d="M3 20h18M5 16l5-5 4 3 6-8"/><path d="M15 6h5v5"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 4.5 6v6c0 4.5 3 7.5 7.5 9 4.5-1.5 7.5-4.5 7.5-9V6L12 3Z"/><path d="m9 12 2 2 4-4"/></symbol>
   <symbol id="logo" viewBox="0 0 120 80">
     <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="7">
-      <path d="M26 20 8 40 26 60" stroke="var(--teal)"/><path d="M94 20 112 40 94 60" stroke="var(--teal)"/>
-      <path d="M34 58 48 24 62 58M39 47h18" stroke="var(--saffron)"/><path d="M58 58 72 24 86 58M63 47h18" stroke="var(--saffron)"/>
+      <path d="M26 20 8 40 26 60" stroke="#2DD4BF"/><path d="M94 20 112 40 94 60" stroke="#2DD4BF"/>
+      <path d="M34 58 48 24 62 58M39 47h18" stroke="#FBBF24"/><path d="M58 58 72 24 86 58M63 47h18" stroke="#FBBF24"/>
     </g>
   </symbol>
 </svg>
@@ -50,79 +37,79 @@
 <a class="skip" href="#main">Skip to content</a>
 <header class="nav">
   <div class="wrap">
-    <a class="brand" href="#main" aria-label="AA Studio">
-      <svg class="logo" aria-hidden="true"><use href="#logo"/></svg>
-      <span>AA<small>Studio · Mumbai</small></span>
-    </a>
+    <a class="brand" href="#main" aria-label="AA Studio"><svg class="logo" aria-hidden="true"><use href="#logo"/></svg><span>AA<small>Studio · Mumbai</small></span></a>
     <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="site-links" aria-label="Open menu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
     <nav class="links" id="site-links" aria-label="Sections">
-      <a href="#services">Services</a><a href="#solutions">Solutions</a><a href="#tech">Technology</a><a href="#process">Process</a><a href="#contact">Contact</a>
+      <a href="#work">Our work</a><a href="#outcomes">Outcomes</a><a href="#stack">Technology</a><a href="#process">Process</a><a href="#contact">Contact</a>
     </nav>
-    <a class="btn" href="#contact">Start a project</a>
+    <a class="btn sm" href="#contact">Start a project</a>
   </div>
 </header>
 
 <main id="main">
+
+<!-- HERO -->
 <section class="hero" aria-labelledby="h-hero">
-  <svg class="mark" viewBox="0 0 120 80" aria-hidden="true">
+  <svg class="watermark" viewBox="0 0 120 80" aria-hidden="true">
     <path pathLength="1" d="M26 20 8 40 26 60" stroke="#2DD4BF"/><path pathLength="1" d="M94 20 112 40 94 60" stroke="#2DD4BF"/>
     <path pathLength="1" d="M34 58 48 24 62 58M39 47h18" stroke="#FBBF24"/><path pathLength="1" d="M58 58 72 24 86 58M63 47h18" stroke="#FBBF24"/>
   </svg>
   <div class="wrap">
-    <div>
+    <div class="hero-copy">
       <div class="eyebrow">AA Studio · Mumbai · 10+ years</div>
-      <h1 id="h-hero"><span class="ln">Imagine it.</span><span class="ln dim">We build it.</span><span class="ln"><em>Ship it.</em></span></h1>
-      <p class="lead" style="color:var(--ink);font-weight:700;font-size:21px;line-height:1.35">We turn business challenges into opportunities for growth.</p>
-      <p class="lead" style="margin-top:14px">From streamlining operations to creating new revenue streams, we build custom software that helps businesses work smarter, serve customers better, and scale with confidence.</p>
-      <p class="lead" style="margin-top:14px;font-size:16px">A decade of turning business ideas into solutions that deliver real value.</p>
+      <h1 id="h-hero"><span class="mask"><span>Imagine it.</span></span><span class="mask"><span class="dim">We build it.</span></span><span class="mask"><span><em>Ship it.</em></span></span></h1>
+      <p class="intro"><b>We turn business challenges into opportunities for growth.</b>From streamlining operations to creating new revenue streams, we build custom software that helps businesses work smarter, serve customers better, and scale with confidence.</p>
       <div class="cta">
-        <a class="btn" href="#contact"><svg class="ico" style="width:18px;height:18px"><use href="#i-call"/></svg>Book a free call</a>
-        <a class="btn ghost" href="#services">See what we build</a>
+        <a class="btn" href="#contact"><svg class="ico"><use href="#i-call"/></svg>Start a project</a>
+        <a class="btn ghost" href="#work">Explore our work</a>
       </div>
-      <div class="facts">
-        <span><svg class="ico"><use href="#i-pin"/></svg>Based in Mumbai, working worldwide</span>
-        <span><svg class="ico"><use href="#i-clock"/></svg>Reply within 24 hours</span>
-      </div>
+      <div class="meta"><span><svg class="ico"><use href="#i-pin"/></svg>Mumbai, working worldwide</span><span><svg class="ico"><use href="#i-clock"/></svg>Reply within 24 hours</span></div>
     </div>
 
-    <!-- product illustration: dashboard window + phone -->
-    <svg class="art" viewBox="0 0 520 440" role="img" aria-label="Illustration of a web dashboard and a mobile app">
-      <rect x="14" y="40" width="440" height="330" rx="18" style="fill:var(--surface);stroke:var(--line)" stroke-width="2"/>
-      <path d="M14 78h440" style="stroke:var(--line)" stroke-width="2"/>
-      <circle cx="40" cy="59" r="6" style="fill:#EF6B5E"/><circle cx="60" cy="59" r="6" style="fill:var(--saffron)"/><circle cx="80" cy="59" r="6" style="fill:var(--teal)"/>
-      <rect x="120" y="50" width="200" height="18" rx="9" style="fill:var(--bg)"/>
-      <rect x="30" y="96" width="78" height="256" rx="10" style="fill:var(--bg)"/>
-      <rect x="40" y="108" width="58" height="10" rx="5" style="fill:var(--teal)"/>
-      <rect x="40" y="134" width="46" height="8" rx="4" style="fill:var(--line)"/><rect x="40" y="154" width="54" height="8" rx="4" style="fill:var(--line)"/><rect x="40" y="174" width="40" height="8" rx="4" style="fill:var(--line)"/><rect x="40" y="194" width="50" height="8" rx="4" style="fill:var(--line)"/>
-      <rect x="124" y="96" width="98" height="64" rx="12" style="fill:var(--teal-soft)"/>
-      <rect x="236" y="96" width="98" height="64" rx="12" style="fill:var(--saffron-soft)"/>
-      <rect x="348" y="96" width="92" height="64" rx="12" style="fill:var(--bg)"/>
-      <rect x="136" y="110" width="40" height="8" rx="4" style="fill:var(--teal)" opacity=".5"/><rect x="136" y="130" width="62" height="16" rx="5" style="fill:var(--teal)"/>
-      <rect x="248" y="110" width="40" height="8" rx="4" style="fill:var(--saffron)" opacity=".7"/><rect x="248" y="130" width="52" height="16" rx="5" style="fill:var(--saffron)"/>
-      <rect x="360" y="110" width="36" height="8" rx="4" style="fill:var(--line)"/><rect x="360" y="130" width="46" height="16" rx="5" style="fill:var(--muted)" opacity=".5"/>
-      <rect x="124" y="176" width="316" height="176" rx="12" style="fill:var(--bg)"/>
-      <g style="stroke:var(--line)" stroke-width="1.5"><path d="M140 200h284M140 240h284M140 280h284M140 320h284"/></g>
-      <path d="M140 316c28-8 38-48 66-52s40 30 68 12 40-62 70-66 48-18 80-34" fill="none" style="stroke:var(--teal)" stroke-width="4" stroke-linecap="round"/>
-      <path d="M140 330c30-4 44-22 72-24s44 14 72 0 46-34 74-34 50-8 66-18" fill="none" style="stroke:var(--saffron)" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 9"/>
-      <circle cx="424" cy="168" r="6" style="fill:var(--teal);stroke:var(--surface)" stroke-width="3"/>
-      <!-- phone -->
-      <rect x="352" y="150" width="150" height="276" rx="26" style="fill:var(--ink)"/>
-      <rect x="360" y="158" width="134" height="260" rx="20" style="fill:var(--surface)"/>
-      <rect x="402" y="166" width="50" height="8" rx="4" style="fill:var(--ink)"/>
-      <rect x="374" y="190" width="70" height="10" rx="5" style="fill:var(--ink)"/><rect x="374" y="208" width="46" height="8" rx="4" style="fill:var(--line)"/>
-      <rect x="374" y="234" width="106" height="62" rx="12" style="fill:var(--teal)"/>
-      <path d="M386 282c14-4 18-22 32-22s16 12 30 4 14-12 22-12" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".9"/>
-      <rect x="374" y="308" width="106" height="30" rx="10" style="fill:var(--bg)"/><circle cx="390" cy="323" r="7" style="fill:var(--saffron)"/><rect x="404" y="318" width="50" height="7" rx="3.500" style="fill:var(--line)"/>
-      <rect x="374" y="346" width="106" height="30" rx="10" style="fill:var(--bg)"/><circle cx="390" cy="361" r="7" style="fill:var(--teal)"/><rect x="404" y="356" width="40" height="7" rx="3.500" style="fill:var(--line)"/>
-      <rect x="374" y="388" width="106" height="20" rx="10" style="fill:var(--saffron)"/>
-      <!-- floating badges -->
-      <g transform="translate(0 6)"><rect x="4" y="378" width="150" height="46" rx="14" style="fill:var(--surface);stroke:var(--line)" stroke-width="2"/><circle cx="30" cy="401" r="12" style="fill:var(--teal-soft)"/><path d="m24 401 4 4 8-8" fill="none" style="stroke:var(--teal)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><rect x="50" y="391" width="80" height="8" rx="4" style="fill:var(--ink)"/><rect x="50" y="406" width="54" height="7" rx="3.500" style="fill:var(--line)"/></g>
-      <rect x="250" y="4" width="130" height="40" rx="12" style="fill:var(--saffron)"/><path d="m272 24 8 8 14-16" fill="none" stroke="#10242B" stroke-width="3.500" stroke-linecap="round" stroke-linejoin="round"/><rect x="304" y="18" width="62" height="8" rx="4" fill="#10242B" opacity=".75"/>
-    </svg>
+    <!-- hero product composition -->
+    <div class="hero-stage" role="img" aria-label="A marketing website, a fitness app and a revenue dashboard shown together">
+      <div class="hs-browser" data-depth="14">
+        <div class="browser"><div class="bar"><i></i><i></i><i></i><span class="url">orbit.app</span></div>
+          <div class="bb"><div class="page orbit">
+            <div class="o-nav f g2"><span class="o-logo"></span><b>orbit</b><span class="mut o-links">Product &nbsp; Pricing &nbsp; Docs</span><span class="btn-m sp">Get started</span></div>
+            <div class="o-hero">
+              <span class="pill info">New · Feedback inbox</span>
+              <h3>Turn customer feedback into <em>features.</em></h3>
+              <p class="mut">One inbox for every request, vote and bug. Prioritise what customers actually want.</p>
+              <div class="f g1"><span class="btn-m teal">Start free</span><span class="btn-m line">Watch demo</span></div>
+            </div>
+            <div class="o-cards">
+              <div class="tile-m"><div class="b">Inbox</div><span class="sk w90"></span><span class="sk w70"></span><span class="sk w50"></span></div>
+              <div class="tile-m"><div class="b">Roadmap</div><div class="rm"><i style="width:82%"></i><i style="width:56%"></i><i style="width:34%"></i></div></div>
+              <div class="tile-m"><div class="b">Insights</div>
+                <svg class="chart" viewBox="0 0 120 44"><path d="M0 36C14 34 22 22 36 24S60 36 74 22 100 6 120 4" fill="none" stroke="#14B8A6" stroke-width="3" stroke-linecap="round"/></svg></div>
+            </div>
+          </div></div>
+        </div>
+      </div>
+      <div class="hs-phone" data-depth="30">
+        <div class="phone"><div class="ps"><div class="scr pulse">
+          <span class="statusbar"><span>9:41</span><span>5G</span></span>
+          <div class="mut" style="font-size:.85em">Today</div><div class="b" style="font-size:1.25em;margin-bottom:.5em">Good morning</div>
+          <svg class="chart" viewBox="0 0 120 120" style="width:62%;margin:0 auto">
+            <circle cx="60" cy="60" r="50" fill="none" stroke="#1f3a34" stroke-width="10"/><circle cx="60" cy="60" r="50" fill="none" stroke="#2DD4BF" stroke-width="10" stroke-linecap="round" stroke-dasharray="230 314" transform="rotate(-90 60 60)"/>
+            <circle cx="60" cy="60" r="35" fill="none" stroke="#3a3320" stroke-width="10"/><circle cx="60" cy="60" r="35" fill="none" stroke="#FBBF24" stroke-width="10" stroke-linecap="round" stroke-dasharray="150 220" transform="rotate(-90 60 60)"/>
+            <text x="60" y="66" text-anchor="middle" fill="#fff" font-size="20" font-weight="800">73%</text></svg>
+          <div class="pl-stats"><div><b>540</b><small>kcal</small></div><div><b>8.2k</b><small>steps</small></div><div><b>42</b><small>min</small></div></div>
+          <div class="pl-bars"><i style="height:40%"></i><i style="height:65%"></i><i style="height:50%"></i><i style="height:85%"></i><i style="height:70%"></i><i class="on" style="height:95%"></i><i style="height:30%"></i></div>
+        </div></div></div>
+      </div>
+      <div class="float hs-rev" data-depth="48">
+        <small>Revenue · this week</small><b class="nums">$48,920</b><span class="pill ok">+28%</span>
+        <svg class="chart" viewBox="0 0 140 40"><defs><linearGradient id="hg" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#14B8A6" stop-opacity=".35"/><stop offset="1" stop-color="#14B8A6" stop-opacity="0"/></linearGradient></defs><path d="M0 32C14 30 22 20 38 22S62 30 78 16 112 6 140 3V40H0Z" fill="url(#hg)"/><path d="M0 32C14 30 22 20 38 22S62 30 78 16 112 6 140 3" fill="none" stroke="#14B8A6" stroke-width="2.5" stroke-linecap="round"/></svg>
+      </div>
+      <div class="float hs-note" data-depth="64"><span class="f g1"><span class="dot-live"></span><b style="font:700 13px var(--body)">New order</b></span><small>Order #4821 · $128.00</small></div>
+    </div>
   </div>
 </section>
 
-<section class="stats" aria-label="At a glance">
+<!-- CREDIBILITY -->
+<section class="sec paper stats" aria-label="At a glance" style="padding-block:56px 8px">
   <div class="wrap">
     <div class="stat"><small>Experience</small><b><span class="n" data-to="10">10</span><i>+</i></b><span>years building websites, apps and SaaS</span></div>
     <div class="stat"><small>Delivered</small><b><span class="n" data-to="50">50</span><i>+</i></b><span>projects shipped and running in the real world</span></div>
@@ -130,114 +117,354 @@
   </div>
 </section>
 
-<section id="services" aria-labelledby="h-services">
+<!-- INTRO -->
+<section class="sec paper" id="work" aria-labelledby="h-work" style="padding-bottom:24px">
+  <div class="wrap intro-grid">
+    <div><div class="eyebrow">What we can build together</div><h2 class="big" id="h-work">Ideas, <br>made real.</h2></div>
+    <div><p class="lead">Six kinds of products, each shown the way a customer would see it. The interfaces below are original concept designs that show our standard of work. They are not completed client projects.</p>
+      <div class="jump"><a href="#web">Websites</a><a href="#apps">Mobile apps</a><a href="#saas">SaaS</a><a href="#ops">Business software</a><a href="#ai">AI products</a><a href="#connect">Integrations</a></div></div>
+  </div>
+</section>
+
+<!-- A. WEB EXPERIENCES -->
+<section class="sec paper showcase" id="web" aria-labelledby="h-web" style="padding-top:40px">
   <div class="wrap">
-    <div class="eyebrow">What we build</div>
-    <h2 id="h-services">Products your customers use every day</h2>
-    <p class="lead">From a company website to a subscription platform, each project is built to be fast, secure and simple to grow.</p>
-    <div class="grid">
-      <article class="card"><div class="badge"><svg class="ico"><use href="#i-web"/></svg></div><h3>Websites</h3><p>Fast, responsive business sites, landing pages and online stores that rank on Google and turn visitors into enquiries.</p><div class="for">Company sites · Portfolios · E-commerce</div></article>
-      <article class="card"><div class="badge"><svg class="ico"><use href="#i-mobile"/></svg></div><h3>Mobile apps</h3><p>iOS and Android apps from a single codebase, published to the App Store and Google Play.</p><div class="for">Booking · Delivery · On-demand services</div></article>
-      <article class="card"><div class="badge"><svg class="ico"><use href="#i-saas"/></svg></div><h3>SaaS products</h3><p>Multi-tenant platforms with sign-up, subscriptions, billing, dashboards and admin tools, ready for paying customers.</p><div class="for">Startups · Subscription products</div></article>
-      <article class="card"><div class="badge"><svg class="ico"><use href="#i-biz"/></svg></div><h3>Business software</h3><p>CRM, inventory, logistics and internal tools that replace spreadsheets and manual follow-ups.</p><div class="for">Sales · Operations · Teams</div></article>
-      <article class="card"><div class="badge"><svg class="ico"><use href="#i-ai"/></svg></div><h3>AI and automation</h3><p>Chatbots, document processing and workflow automation that remove repetitive work.</p><div class="for">Support · Back office · Reporting</div></article>
-      <article class="card"><div class="badge"><svg class="ico"><use href="#i-wrench"/></svg></div><h3>Maintenance and upgrades</h3><p>Bug fixes, speed and security updates, and new features for products that are already live.</p><div class="for">Existing apps and websites</div></article>
+    <div class="sc-head">
+      <div><div class="eyebrow">Websites and e-commerce</div><h2 class="big" id="h-web">Storefronts that sell from the first scroll.</h2></div>
+      <div><p class="lead">Fast, search-friendly sites that look as good on a phone as on a desktop. Product pages, carts, payments and order emails are built to turn visitors into customers.</p>
+        <ul class="tags"><li>Online stores</li><li>Company sites</li><li>Landing pages</li><li>SEO and speed</li><li>Payments</li></ul></div>
+    </div>
+    <div class="seg" role="group" aria-label="Preview size"><button type="button" data-view="desktop" aria-pressed="true">Desktop</button><button type="button" data-view="mobile" aria-pressed="false">Mobile</button></div>
+    <div class="stage" id="web-stage" data-view="desktop" role="img" aria-label="An e-commerce storefront on desktop and on a phone">
+      <div class="stage-browser reveal-clip">
+        <div class="browser"><div class="bar"><i></i><i></i><i></i><span class="url">aurelia.store</span></div>
+          <div class="bb"><div class="page store">
+            <div class="st-strip">Free delivery on orders over $60 · New season lighting is here</div>
+            <div class="st-head f g2"><b class="st-brand">aurelia</b><span class="mut st-nav">Lighting &nbsp; Furniture &nbsp; Decor &nbsp; Sale</span><span class="st-search sp"></span><span class="btn-m">Cart · 2</span></div>
+            <div class="st-hero">
+              <div><span class="pill warn">New season</span><h3>Warm light for every room.</h3><p class="mut">Handmade lamps, chairs and décor, designed in small batches and delivered in two days.</p><div class="f g1"><span class="btn-m">Shop lighting</span><span class="btn-m line">Our story</span></div></div>
+              <div class="st-art"><img src="assets/img/product-lamp.svg" alt="" width="400" height="400"><span class="st-badge">-20%</span></div>
+            </div>
+            <div class="st-row"><b>Bestsellers</b><span class="mut sp">View all →</span></div>
+            <div class="st-grid">
+              <div><img src="assets/img/product-chair.svg" alt="" width="200" height="200"><b>Oslo lounge chair</b><span class="mut">★★★★★ 128</span><span class="b">$289</span></div>
+              <div><img src="assets/img/product-vase.svg" alt="" width="200" height="200"><b>Fern ceramic vase</b><span class="mut">★★★★☆ 64</span><span class="b">$46</span></div>
+              <div><img src="assets/img/product-headphones.svg" alt="" width="200" height="200"><b>Studio headphones</b><span class="mut">★★★★★ 211</span><span class="b">$159</span></div>
+              <div><img src="assets/img/product-lamp.svg" alt="" width="200" height="200"><b>Halo table lamp</b><span class="mut">★★★★★ 92</span><span class="b">$74</span></div>
+            </div>
+          </div></div>
+        </div>
+      </div>
+      <div class="stage-phone reveal" data-parallax="-0.05">
+        <div class="phone"><div class="ps"><div class="scr store-m">
+          <span class="statusbar"><span>9:41</span><span>5G</span></span>
+          <div class="f"><b class="st-brand">aurelia</b><span class="btn-m sp" style="padding:.3em .8em">Bag 2</span></div>
+          <div class="m-ban"><div><b>Warm light for every room</b><span class="btn-m" style="padding:.4em .9em;font-size:.8em">Shop now</span></div><img src="assets/img/product-lamp.svg" alt="" width="200" height="200"></div>
+          <div class="b" style="margin:.7em 0 .4em">Bestsellers</div>
+          <div class="m-grid"><div><img src="assets/img/product-chair.svg" alt="" width="200" height="200"><b>Oslo chair</b><span>$289</span></div><div><img src="assets/img/product-vase.svg" alt="" width="200" height="200"><b>Fern vase</b><span>$46</span></div></div>
+          <div class="tabbar"><i class="on"></i><i></i><i></i><i></i></div>
+        </div></div></div>
+      </div>
+    </div>
+    <p class="concept">Concept design for an online home-décor store.</p>
+  </div>
+</section>
+
+<!-- B. MOBILE APPS -->
+<section class="sec dark showcase" id="apps" aria-labelledby="h-apps">
+  <div class="wrap apps-grid">
+    <div class="sticky-copy">
+      <div class="eyebrow">Mobile apps</div>
+      <h2 class="big" id="h-apps">Apps people keep on the home screen.</h2>
+      <p class="lead" style="margin-top:22px">iOS and Android apps from one codebase, designed around the one thing your customer opens the app to do. Push notifications, payments, maps and offline support included.</p>
+      <ul class="tags"><li>iOS and Android</li><li>React Native and Flutter</li><li>App Store publishing</li><li>Push notifications</li></ul>
+      <p class="concept">Concept designs: fitness, personal finance and travel booking.</p>
+    </div>
+    <div class="fan" role="img" aria-label="Three smartphone apps: fitness, personal finance and travel booking">
+      <div class="fan-i f1 reveal-clip" data-parallax="-0.08"><div class="phone"><div class="ps"><div class="scr pulse">
+        <span class="statusbar"><span>9:41</span><span>5G</span></span>
+        <div class="f"><div><div class="mut" style="font-size:.8em">Thursday</div><b style="font-size:1.2em">Pulse</b></div><span class="av sp" style="background:#2DD4BF;color:#032421">SK</span></div>
+        <svg class="chart" viewBox="0 0 120 120" style="width:70%;margin:.6em auto 0">
+          <circle cx="60" cy="60" r="52" fill="none" stroke="#1f3a34" stroke-width="9"/><circle cx="60" cy="60" r="52" fill="none" stroke="#2DD4BF" stroke-width="9" stroke-linecap="round" stroke-dasharray="250 327" transform="rotate(-90 60 60)"/>
+          <circle cx="60" cy="60" r="39" fill="none" stroke="#3a3320" stroke-width="9"/><circle cx="60" cy="60" r="39" fill="none" stroke="#FBBF24" stroke-width="9" stroke-linecap="round" stroke-dasharray="170 245" transform="rotate(-90 60 60)"/>
+          <circle cx="60" cy="60" r="26" fill="none" stroke="#3a2420" stroke-width="9"/><circle cx="60" cy="60" r="26" fill="none" stroke="#F97362" stroke-width="9" stroke-linecap="round" stroke-dasharray="90 163" transform="rotate(-90 60 60)"/></svg>
+        <div class="pl-stats"><div><b>540</b><small>Move</small></div><div><b>38</b><small>Exercise</small></div><div><b>9</b><small>Stand</small></div></div>
+        <div class="pl-card"><div><b>Upper body</b><small>Next · 6:30 pm · 35 min</small></div><span class="play">▶</span></div>
+        <div class="pl-bars"><i style="height:40%"></i><i style="height:65%"></i><i style="height:50%"></i><i style="height:85%"></i><i style="height:70%"></i><i class="on" style="height:95%"></i><i style="height:30%"></i></div>
+      </div></div></div></div>
+
+      <div class="fan-i f2 reveal-clip" data-parallax="0.05" style="--i:1"><div class="phone"><div class="ps"><div class="scr folio">
+        <span class="statusbar"><span>9:41</span><span>5G</span></span>
+        <div class="f"><b>Folio</b><span class="pill ok sp">Secure</span></div>
+        <div class="fo-card"><small>Total balance</small><b class="nums">$24,580.20</b><svg class="chart" viewBox="0 0 140 36"><path d="M0 28C16 26 24 14 42 18S70 30 88 14 120 8 140 4" fill="none" stroke="#fff" stroke-opacity=".85" stroke-width="2.5" stroke-linecap="round"/></svg><span class="f"><span>•••• 4821</span><span class="sp">12/28</span></span></div>
+        <div class="f g1" style="margin:.8em 0 .4em"><span class="btn-m" style="padding:.4em 1em;font-size:.85em">Send</span><span class="btn-m line" style="padding:.4em 1em;font-size:.85em">Request</span><span class="btn-m line" style="padding:.4em 1em;font-size:.85em">Cards</span></div>
+        <div class="b" style="margin:.5em 0 .3em">Recent</div>
+        <div class="tx"><span class="sq" style="background:#14B8A6"></span><span><b>Groceries</b><small>Today</small></span><b class="sp nums">-$64.20</b></div>
+        <div class="tx"><span class="sq" style="background:#F97362"></span><span><b>Salary</b><small>Yesterday</small></span><b class="sp nums" style="color:#0F7A4B">+$4,200</b></div>
+        <div class="tx"><span class="sq" style="background:#FBBF24"></span><span><b>Metro pass</b><small>Mon</small></span><b class="sp nums">-$18.00</b></div>
+      </div></div></div></div>
+
+      <div class="fan-i f3 reveal-clip" data-parallax="-0.14" style="--i:2"><div class="phone"><div class="ps"><div class="scr stay">
+        <span class="statusbar"><span>9:41</span><span>5G</span></span>
+        <div class="st-find"><span>⌕</span> Coorg, India · 2 guests</div>
+        <div class="st-photo"><img src="assets/img/scene-hills.svg" alt="" width="400" height="260"><span class="heart">♥</span></div>
+        <div class="f" style="margin-top:.6em"><b>Hillside cabin</b><span class="sp b">★ 4.9</span></div>
+        <small class="mut">Kodagu · Entire cabin · 2 beds</small>
+        <div class="f g1" style="margin:.6em 0"><span class="pill info">12 Nov</span><span class="pill info">15 Nov</span></div>
+        <div class="f"><span><b class="nums" style="font-size:1.2em">$142</b> <small class="mut">/ night</small></span><span class="btn-m teal sp">Reserve</span></div>
+        <div class="tabbar"><i class="on"></i><i></i><i></i><i></i></div>
+      </div></div></div></div>
     </div>
   </div>
 </section>
 
-<section id="solutions" style="padding-top:24px" aria-labelledby="h-solutions">
-  <div class="wrap split">
+<!-- C. SAAS -->
+<section class="sec white showcase" id="saas" aria-labelledby="h-saas">
+  <div class="wrap">
+    <div class="sc-head">
+      <div><div class="eyebrow">SaaS products</div><h2 class="big" id="h-saas">Subscription software, ready for paying customers.</h2></div>
+      <div><p class="lead">Sign-up, plans, billing, usage limits and an admin view of the business, built on an architecture that keeps working as your customer count grows.</p>
+        <ul class="tags"><li>Multi-tenant platforms</li><li>Stripe and Razorpay billing</li><li>Analytics dashboards</li><li>Admin and roles</li></ul></div>
+    </div>
+    <div class="stage saas-stage" role="img" aria-label="A subscription analytics dashboard with a pricing plan card">
+      <div class="reveal-clip">
+        <div class="browser"><div class="bar"><i></i><i></i><i></i><span class="url">app.ledgerly.io/overview</span></div>
+          <div class="bb"><div class="page ld">
+            <aside class="ld-side">
+              <div class="f g1" style="margin-bottom:1.4em"><span class="o-logo"></span><b>ledgerly</b></div>
+              <div class="ld-nav on">Overview</div><div class="ld-nav">Customers</div><div class="ld-nav">Subscriptions</div><div class="ld-nav">Invoices</div><div class="ld-nav">Reports</div><div class="ld-nav">Settings</div>
+              <div class="ld-use"><small>Plan usage</small><b>82%</b><div class="meter"><i style="width:82%"></i></div></div>
+            </aside>
+            <div class="ld-main">
+              <div class="f g1" style="margin-bottom:1em"><b style="font-size:1.5em;font-family:var(--display)">Overview</b><span class="chipf sp">Last 30 days ▾</span><span class="chipf">All plans ▾</span><span class="btn-m" style="padding:.45em 1em">Export</span></div>
+              <div class="ld-kpis">
+                <div class="tile-m"><small>MRR</small><b class="nums">$84,210</b><span class="pill ok">+12.4%</span></div>
+                <div class="tile-m"><small>Active subscribers</small><b class="nums">3,482</b><span class="pill ok">+6.1%</span></div>
+                <div class="tile-m"><small>Churn</small><b class="nums">1.8%</b><span class="pill ok">-0.3</span></div>
+                <div class="tile-m"><small>ARPU</small><b class="nums">$24.19</b><span class="pill info">+2.0%</span></div>
+              </div>
+              <div class="ld-mid">
+                <div class="card-m"><div class="b" style="margin-bottom:.4em">Monthly recurring revenue</div>
+                  <svg class="chart" viewBox="0 0 400 130"><defs><linearGradient id="ldg" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#14B8A6" stop-opacity=".35"/><stop offset="1" stop-color="#14B8A6" stop-opacity="0"/></linearGradient></defs>
+                    <g stroke="#e6ecea" stroke-width="1"><path d="M0 20H400M0 55H400M0 90H400M0 125H400"/></g>
+                    <path d="M0 108C30 104 50 92 80 94S130 100 160 80 220 58 250 56 310 36 340 26 380 14 400 10V130H0Z" fill="url(#ldg)"/>
+                    <path d="M0 108C30 104 50 92 80 94S130 100 160 80 220 58 250 56 310 36 340 26 380 14 400 10" fill="none" stroke="#14B8A6" stroke-width="3" stroke-linecap="round"/>
+                    <circle cx="400" cy="10" r="5" fill="#14B8A6" stroke="#fff" stroke-width="2.5"/></svg></div>
+                <div class="card-m"><div class="b" style="margin-bottom:.4em">Plan mix</div>
+                  <svg class="chart" viewBox="0 0 120 100" style="max-width:11em;margin:0 auto"><circle cx="50" cy="50" r="34" fill="none" stroke="#14B8A6" stroke-width="16" stroke-dasharray="112 214" transform="rotate(-90 50 50)"/><circle cx="50" cy="50" r="34" fill="none" stroke="#FBBF24" stroke-width="16" stroke-dasharray="64 214" stroke-dashoffset="-112" transform="rotate(-90 50 50)"/><circle cx="50" cy="50" r="34" fill="none" stroke="#10242B" stroke-width="16" stroke-dasharray="38 214" stroke-dashoffset="-176" transform="rotate(-90 50 50)"/><text x="50" y="55" text-anchor="middle" font-size="13" font-weight="800" fill="#10242B">3.5k</text></svg>
+                  <div class="legend"><span><i style="background:#14B8A6"></i>Starter</span><span><i style="background:#FBBF24"></i>Pro</span><span><i style="background:#10242B"></i>Scale</span></div></div>
+              </div>
+              <div class="card-m" style="margin-top:1em;padding:.4em 1em"><table class="mt"><thead><tr><th>Customer</th><th>Plan</th><th>Status</th><th>Renews</th><th class="r">Amount</th></tr></thead><tbody>
+                <tr><td><span class="av" style="background:#14B8A6">N</span> Northwind Co.</td><td>Scale</td><td><span class="pill ok">Active</span></td><td>12 Nov</td><td class="r nums">$499</td></tr>
+                <tr><td><span class="av" style="background:#F97362">B</span> Bluefin Labs</td><td>Pro</td><td><span class="pill ok">Active</span></td><td>14 Nov</td><td class="r nums">$99</td></tr>
+                <tr><td><span class="av" style="background:#6C5CE7">K</span> Kestrel Foods</td><td>Pro</td><td><span class="pill warn">Past due</span></td><td>15 Nov</td><td class="r nums">$99</td></tr>
+                <tr><td><span class="av" style="background:#FBBF24;color:#222">R</span> Redwood Studio</td><td>Starter</td><td><span class="pill info">Trial</span></td><td>18 Nov</td><td class="r nums">$29</td></tr></tbody></table></div>
+            </div>
+          </div></div>
+        </div>
+      </div>
+      <div class="float plan reveal" data-parallax="-0.06">
+        <span class="pill vio">Most popular</span><b>Pro</b><span class="price">$49<small>/month</small></span>
+        <ul><li>Unlimited projects</li><li>Team roles and SSO</li><li>Priority support</li></ul><span class="btn-m teal" style="width:100%;margin-top:6px">Upgrade plan</span>
+      </div>
+      <div class="float inv reveal" data-parallax="0.08" style="--i:2"><span class="f g1"><span class="dot-live"></span><b style="font:700 13px var(--body)">Invoice paid</b></span><small>Northwind Co. · $499.00</small></div>
+    </div>
+    <p class="concept">Concept design for a subscription analytics product.</p>
+  </div>
+</section>
+
+<!-- D. BUSINESS SOFTWARE -->
+<section class="sec dark showcase" id="ops" aria-labelledby="h-ops">
+  <div class="wrap ops-grid">
+    <div class="sticky-copy">
+      <div class="eyebrow">Business software</div>
+      <h2 class="big" id="h-ops">Run operations from one screen.</h2>
+      <p class="lead" style="margin-top:22px">Inventory, orders, dispatch, CRM and reports in one system that replaces spreadsheets and phone calls. Your team sees what is happening, and what needs attention, in real time.</p>
+      <ul class="tags"><li>Inventory and stock</li><li>Order management</li><li>CRM and sales</li><li>Reports and alerts</li></ul>
+      <p class="concept">Concept design for a warehouse and order system.</p>
+    </div>
+    <div class="stage ops-stage" role="img" aria-label="An inventory and order dashboard with a delivery route map">
+      <div class="reveal-clip">
+        <div class="browser"><div class="bar"><i></i><i></i><i></i><span class="url">stockpilot.in/warehouse/mumbai</span></div>
+          <div class="bb"><div class="page sp-app">
+            <div class="f g1" style="margin-bottom:1em"><b style="font:800 1.5em var(--display)">Mumbai warehouse</b><span class="pill ok">Operational</span><span class="chipf sp">Today ▾</span></div>
+            <div class="sp-kpis">
+              <div><small>Orders today</small><b class="nums">1,284</b></div><div><small>Picked</small><b class="nums">91%</b></div><div><small>On-time</small><b class="nums">97.4%</b></div><div class="alert"><small>Low stock</small><b class="nums">14 items</b></div>
+            </div>
+            <div class="sp-body">
+              <div class="card-m" style="padding:.4em 1em"><table class="mt"><thead><tr><th>SKU</th><th>Item</th><th>Stock level</th><th>Status</th><th>Bin</th></tr></thead><tbody>
+                <tr><td class="nums b">SK-2041</td><td>Cotton tote bag</td><td><div class="meter bad-m"><i style="width:12%"></i></div></td><td><span class="pill bad">Low</span></td><td>A-14</td></tr>
+                <tr><td class="nums b">SK-1180</td><td>Steel bottle 750 ml</td><td><div class="meter"><i style="width:78%"></i></div></td><td><span class="pill ok">In stock</span></td><td>B-02</td></tr>
+                <tr><td class="nums b">SK-3307</td><td>Desk organiser</td><td><div class="meter warn-m"><i style="width:34%"></i></div></td><td><span class="pill warn">Reorder</span></td><td>C-21</td></tr>
+                <tr><td class="nums b">SK-0912</td><td>Notebook A5, 3-pack</td><td><div class="meter"><i style="width:92%"></i></div></td><td><span class="pill ok">In stock</span></td><td>B-09</td></tr>
+                <tr><td class="nums b">SK-4450</td><td>LED desk lamp</td><td><div class="meter"><i style="width:61%"></i></div></td><td><span class="pill ok">In stock</span></td><td>D-03</td></tr></tbody></table></div>
+              <div class="card-m flow"><div class="b" style="margin-bottom:.6em">Order flow</div>
+                <div class="step"><i class="done"></i><span>Received</span><b class="nums sp">214</b></div>
+                <div class="step"><i class="done"></i><span>Picked</span><b class="nums sp">186</b></div>
+                <div class="step"><i class="now"></i><span>Packed</span><b class="nums sp">171</b></div>
+                <div class="step"><i></i><span>Shipped</span><b class="nums sp">163</b></div>
+              </div>
+            </div>
+          </div></div>
+        </div>
+      </div>
+      <div class="float route reveal" data-parallax="-0.07">
+        <small>Live delivery · Bandra to Powai</small>
+        <svg viewBox="0 0 200 110" class="chart"><rect width="200" height="110" rx="10" fill="#E8F0EE"/><path d="M0 70H200M0 30H200M60 0V110M140 0V110" stroke="#fff" stroke-width="7"/><path d="M20 92C50 84 62 60 92 56S142 42 172 20" fill="none" stroke="#14B8A6" stroke-width="3.5" stroke-dasharray="2 7" stroke-linecap="round" class="route-line"/><circle cx="20" cy="92" r="6" fill="#10242B"/><circle cx="172" cy="20" r="7" fill="#F97362" stroke="#fff" stroke-width="3"/><circle cx="104" cy="52" r="6" fill="#14B8A6" stroke="#fff" stroke-width="3"/></svg>
+        <span class="f g1"><b style="font:700 14px var(--body)">ETA 14 min</b><span class="pill ok sp">On time</span></span>
+      </div>
+      <div class="float lowstock reveal" data-parallax="0.07" style="--i:2"><span class="pill bad">Alert</span><small style="display:block;margin-top:4px">SK-2041 is below its reorder level.</small><b style="font:700 13px var(--body);margin-top:4px">Create purchase order →</b></div>
+    </div>
+  </div>
+</section>
+
+<!-- E. AI -->
+<section class="sec paper showcase" id="ai" aria-labelledby="h-ai">
+  <div class="wrap">
+    <div class="sc-head">
+      <div><div class="eyebrow">AI and automation</div><h2 class="big" id="h-ai">Software that reads, answers and acts.</h2></div>
+      <div><p class="lead">Assistants that answer from your own documents, search that understands meaning, and workflows that route, summarise and follow up without anyone copying and pasting.</p>
+        <ul class="tags"><li>Document Q and A</li><li>Smart search</li><li>Workflow automation</li><li>Claude and OpenAI APIs</li></ul></div>
+    </div>
+    <div class="stage ai-stage" role="img" aria-label="An AI assistant answering a question about a contract, with a document panel and a search palette">
+      <div class="reveal-clip">
+        <div class="browser"><div class="bar"><i></i><i></i><i></i><span class="url">atlas.work/workspace</span></div>
+          <div class="bb"><div class="page at">
+            <aside class="at-side"><b style="font:800 1.2em var(--display)">Atlas</b><div class="at-new">+ New chat</div><small>Today</small><div class="at-item on">Supplier contract review</div><div class="at-item">Q3 board summary</div><small>Earlier</small><div class="at-item">Onboarding checklist</div><div class="at-item">Vendor comparison</div></aside>
+            <div class="at-chat">
+              <div class="msg me">Summarise the supplier contract and flag renewal risks.</div>
+              <div class="msg ai"><div class="f g1" style="margin-bottom:.4em"><span class="spark">✦</span><b>Atlas</b></div>
+                I found <b>3 points</b> that need attention:
+                <ol><li>Auto-renews on <mark>1 Jan</mark> unless cancelled 60 days before.</li><li>Price rises by up to 8% each year.</li><li>Termination needs written notice.</li></ol>
+                <span class="src">Contract.pdf · p.4</span><span class="src">Annex B · p.2</span></div>
+              <div class="msg ai typing"><i></i><i></i><i></i></div>
+              <div class="at-input"><span class="mut">Ask a follow-up…</span><span class="btn-m teal sp" style="padding:.35em .9em">Send</span></div>
+            </div>
+            <div class="at-doc"><div class="f"><b>Contract.pdf</b><span class="pill vio sp">Page 4 of 18</span></div>
+              <span class="sk w90"></span><span class="sk w70"></span><span class="sk w90"></span>
+              <p>This Agreement shall renew automatically for successive one-year terms <mark>unless either party gives written notice at least sixty (60) days before the renewal date.</mark></p>
+              <span class="sk w90"></span><span class="sk w50"></span><span class="sk w70"></span>
+              <p>The Supplier may adjust fees by <mark>up to eight percent (8%)</mark> on each anniversary of the Effective Date.</p>
+              <span class="sk w90"></span><span class="sk w30"></span>
+            </div>
+          </div></div>
+        </div>
+      </div>
+      <div class="float palette reveal" data-parallax="-0.05">
+        <div class="pal-in"><span>⌕</span> Search contracts, people, invoices…<kbd>⌘K</kbd></div>
+        <div class="pal-r on"><span class="sq" style="background:#6C5CE7"></span><span><b>Supplier contract 2025</b><small>Contract · edited 2 days ago</small></span></div>
+        <div class="pal-r"><span class="sq" style="background:#14B8A6"></span><span><b>Renewal calendar</b><small>Sheet · 12 renewals due</small></span></div>
+      </div>
+      <div class="float sum reveal" data-parallax="0.07" style="--i:2"><span class="pill vio">Automation</span><b style="font:700 14px var(--body);margin:6px 0 2px">Reminder created</b><small>Email legal on 2 Nov, 60 days before renewal.</small></div>
+    </div>
+    <p class="concept">Concept design for a document assistant.</p>
+  </div>
+</section>
+
+<!-- F. INTEGRATIONS -->
+<section class="sec dark showcase" id="connect" aria-labelledby="h-connect">
+  <div class="wrap connect-grid">
     <div>
-      <div class="eyebrow">Complete solutions</div>
-      <h2 id="h-solutions">More than code. The whole chain.</h2>
-      <p class="lead">A product needs planning, design, engineering, hosting and support. We cover all of it, so nothing falls between vendors.</p>
+      <div class="eyebrow">Integrations</div>
+      <h2 class="big" id="h-connect">One business. Every tool connected.</h2>
+      <p class="lead" style="margin-top:22px">Orders flow into accounting. Payments update the CRM. Customers hear from you on WhatsApp and email. We connect the systems you already use so data moves by itself.</p>
+      <ul class="tags"><li>REST and webhooks</li><li>Payment gateways</li><li>WhatsApp and email</li><li>Accounting and ERP</li></ul>
     </div>
-    <div class="steps">
-      <div class="mini"><svg class="ico"><use href="#i-target"/></svg><div><b>Planning</b><span>Scope, priorities, budget and timeline.</span></div></div>
-      <div class="mini"><svg class="ico"><use href="#i-pen"/></svg><div><b>UI/UX design</b><span>Wireframes and prototypes in your brand.</span></div></div>
-      <div class="mini"><svg class="ico"><use href="#i-code"/></svg><div><b>Development</b><span>Frontend, backend, databases and APIs.</span></div></div>
-      <div class="mini"><svg class="ico"><use href="#i-plug"/></svg><div><b>Integrations</b><span>Payments, WhatsApp, email, maps, CRMs.</span></div></div>
-      <div class="mini"><svg class="ico"><use href="#i-cloud"/></svg><div><b>Cloud and DevOps</b><span>Hosting, deployment, backups, monitoring.</span></div></div>
-      <div class="mini"><svg class="ico"><use href="#i-rocket"/></svg><div><b>Launch and growth</b><span>SEO, analytics, store publishing, support.</span></div></div>
-    </div>
+    <div class="hub-wrap reveal"><svg class="hub" viewBox="0 0 600 520" role="img" aria-label="A central business system connected to payments, CRM, messaging, accounting, inventory, analytics, support and delivery tools">
+<circle class="ring" cx="300" cy="260" r="96"/><circle class="ring r2" cx="300" cy="260" r="150"/>
+<path class="flow" d="M300 260L515 260"/><path class="flow" d="M300 260L452 384"/><path class="flow" d="M300 260L300 435"/><path class="flow" d="M300 260L148 384"/><path class="flow" d="M300 260L85 260"/><path class="flow" d="M300 260L148 136"/><path class="flow" d="M300 260L300 85"/><path class="flow" d="M300 260L452 136"/><g class="node"><rect x="453" y="239" width="124" height="42" rx="12"/><text x="515" y="265" text-anchor="middle">Payments</text></g><g class="node"><rect x="390" y="363" width="124" height="42" rx="12"/><text x="452" y="389" text-anchor="middle">CRM</text></g><g class="node"><rect x="238" y="414" width="124" height="42" rx="12"/><text x="300" y="440" text-anchor="middle">Messaging</text></g><g class="node"><rect x="86" y="363" width="124" height="42" rx="12"/><text x="148" y="389" text-anchor="middle">Accounting</text></g><g class="node"><rect x="23" y="239" width="124" height="42" rx="12"/><text x="85" y="265" text-anchor="middle">Inventory</text></g><g class="node"><rect x="86" y="115" width="124" height="42" rx="12"/><text x="148" y="141" text-anchor="middle">Analytics</text></g><g class="node"><rect x="238" y="64" width="124" height="42" rx="12"/><text x="300" y="90" text-anchor="middle">Support desk</text></g><g class="node"><rect x="390" y="115" width="124" height="42" rx="12"/><text x="452" y="141" text-anchor="middle">Maps and delivery</text></g>
+<circle class="core" cx="300" cy="260" r="58"/><g transform="translate(262 238) scale(.64)" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"><path d="M26 20 8 40 26 60" stroke="#2DD4BF"/><path d="M94 20 112 40 94 60" stroke="#2DD4BF"/><path d="M34 58 48 24 62 58M39 47h18" stroke="#FBBF24"/><path d="M58 58 72 24 86 58M63 47h18" stroke="#FBBF24"/></g>
+<text class="core-t" x="300" y="342" text-anchor="middle">Your business</text></svg></div>
   </div>
 </section>
 
-<section id="tech" class="tech" aria-labelledby="h-tech">
+<!-- G. GALLERY -->
+<section class="sec white" id="gallery" aria-labelledby="h-gal" style="padding-bottom:clamp(56px,7vw,96px)">
+  <div class="wrap"><div class="eyebrow">More we can build</div><h2 class="big" id="h-gal" style="max-width:14ch">Every industry, one standard.</h2></div>
+  <div class="gal" tabindex="0" aria-label="More concept products, scroll sideways">
+    <article class="gc"><div class="gs g-clinic"><div class="gc-h"><b>Clinic booking</b><span>Nov</span></div><div class="cal"><i></i><i class="on"></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i class="hl"></i><i></i><i class="on"></i><i></i><i></i></div><span class="gc-btn">Confirm 10:30 am</span></div><h3>Appointments</h3><p>Online booking and reminders for clinics.</p></article>
+    <article class="gc"><div class="gs g-food"><div class="gc-h"><b>Menu</b><span>Table 6</span></div><div class="mi"><i></i><span>Butter chicken<small>$12</small></span><u>+</u></div><div class="mi"><i></i><span>Garlic naan<small>$3</small></span><u>+</u></div><div class="mi"><i></i><span>Mango lassi<small>$4</small></span><u>+</u></div><span class="gc-btn">View order · $19</span></div><h3>Ordering</h3><p>QR menus, orders and kitchen display.</p></article>
+    <article class="gc"><div class="gs g-school"><div class="gc-h"><b>Attendance</b><span>Class 8B</span></div><div class="bars"><i style="height:70%"></i><i style="height:88%"></i><i style="height:60%"></i><i style="height:94%"></i><i style="height:82%"></i></div><div class="gc-row"><span>Present</span><b>38 / 41</b></div><div class="gc-row"><span>Fees due</span><b>4 families</b></div></div><h3>School ERP</h3><p>Attendance, fees and parent updates.</p></article>
+    <article class="gc"><div class="gs g-track"><div class="gc-h"><b>Shipment #8821</b><span class="ok-p">On time</span></div><svg viewBox="0 0 200 90"><path d="M14 70C50 70 54 30 100 38S150 74 186 22" fill="none" stroke="#FBBF24" stroke-width="3.5" stroke-dasharray="2 7" stroke-linecap="round"/><circle cx="14" cy="70" r="6" fill="#fff"/><circle cx="100" cy="38" r="7" fill="#FBBF24" stroke="#fff" stroke-width="3"/><circle cx="186" cy="22" r="6" fill="#fff" opacity=".6"/></svg><div class="gc-row"><span>ETA</span><b>Today, 4:20 pm</b></div></div><h3>Logistics</h3><p>Live tracking for fleets and deliveries.</p></article>
+    <article class="gc"><div class="gs g-home"><div class="house"></div><div class="gc-row" style="margin-top:10px"><b>3 BHK, Andheri</b><span>$1,450</span></div><div class="f g1" style="margin-top:6px"><span class="gc-chip">2 baths</span><span class="gc-chip">Parking</span><span class="gc-chip">Sea view</span></div></div><h3>Property portal</h3><p>Listings, filters and enquiries.</p></article>
+    <article class="gc"><div class="gs g-learn"><div class="gc-h"><b>My courses</b><span>2 active</span></div><div class="course"><span class="play">▶</span><span>UX basics<small>Lesson 6 of 12</small><em><i style="width:50%"></i></em></span></div><div class="course"><span class="play">▶</span><span>Python for data<small>Lesson 3 of 20</small><em><i style="width:15%"></i></em></span></div></div><h3>Learning platform</h3><p>Courses, progress and certificates.</p></article>
+  </div>
+</section>
+
+<!-- OUTCOMES -->
+<section class="sec dark outcomes" id="outcomes" aria-labelledby="h-out">
   <div class="wrap">
+    <div class="eyebrow">What changes for your business</div>
+    <h2 class="big" id="h-out" style="max-width:16ch">We help you…</h2>
+    <ol>
+      <li class="reveal"><h3>Launch new digital products</h3><p>From first idea to a live product in the App Store or on the web.</p></li>
+      <li class="reveal"><h3>Improve customer experience</h3><p>Faster, simpler journeys that people finish and come back to.</p></li>
+      <li class="reveal"><h3>Automate manual processes</h3><p>Replace spreadsheets, copy-paste and follow-up calls.</p></li>
+      <li class="reveal"><h3>Manage operations clearly</h3><p>One view of orders, stock, people and performance.</p></li>
+      <li class="reveal"><h3>Create new revenue</h3><p>Subscriptions, online sales and new channels for what you already do.</p></li>
+      <li class="reveal"><h3>Scale as you grow</h3><p>Architecture and support that keep up with more users and more data.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- STACK -->
+<section class="sec dark" id="stack" aria-labelledby="h-stack" style="padding-top:0">
+  <div class="wrap" style="border-top:1px solid var(--line-dark);padding-top:clamp(56px,7vw,96px)">
     <div class="eyebrow">Technology</div>
-    <h2 id="h-tech">Proven tools, chosen for your goals</h2>
-    <p class="lead">We pick mainstream, well-supported stacks that are fast to build, easy to maintain and simple to hire for later.</p>
-    <div class="tech-grid">
-      <div><h3><svg class="ico"><use href="#i-layout"/></svg>Frontend</h3><div class="chips"><span class="chip">React</span><span class="chip">Next.js</span><span class="chip">Vue</span><span class="chip">TypeScript</span><span class="chip">Tailwind CSS</span></div></div>
-      <div><h3><svg class="ico"><use href="#i-mobile"/></svg>Mobile</h3><div class="chips"><span class="chip">React Native</span><span class="chip">Expo</span><span class="chip">Flutter</span><span class="chip">Swift</span><span class="chip">Kotlin</span></div></div>
-      <div><h3><svg class="ico"><use href="#i-code"/></svg>Backend</h3><div class="chips"><span class="chip">Node.js</span><span class="chip">NestJS</span><span class="chip">Python</span><span class="chip">FastAPI</span><span class="chip">Django</span><span class="chip">Laravel</span></div></div>
-      <div><h3><svg class="ico"><use href="#i-db"/></svg>Databases</h3><div class="chips"><span class="chip">PostgreSQL</span><span class="chip">MySQL</span><span class="chip">MongoDB</span><span class="chip">Redis</span><span class="chip">Firebase</span><span class="chip">Supabase</span></div></div>
-      <div><h3><svg class="ico"><use href="#i-cloud"/></svg>Cloud and DevOps</h3><div class="chips"><span class="chip">AWS</span><span class="chip">Google Cloud</span><span class="chip">Vercel</span><span class="chip">Docker</span><span class="chip">GitHub Actions</span></div></div>
-      <div><h3><svg class="ico"><use href="#i-web"/></svg>CMS and e-commerce</h3><div class="chips"><span class="chip">WordPress</span><span class="chip">Shopify</span><span class="chip">WooCommerce</span><span class="chip">Strapi</span></div></div>
-      <div><h3><svg class="ico"><use href="#i-plug"/></svg>Payments and services</h3><div class="chips"><span class="chip">Stripe</span><span class="chip">Razorpay</span><span class="chip">PayPal</span><span class="chip">Twilio</span><span class="chip">Google Maps</span></div></div>
-      <div><h3><svg class="ico"><use href="#i-ai"/></svg>AI and automation</h3><div class="chips"><span class="chip">OpenAI</span><span class="chip">Claude API</span><span class="chip">LangChain</span><span class="chip">n8n</span><span class="chip">Zapier</span></div></div>
-      <div><h3><svg class="ico"><use href="#i-tools"/></svg>Design and testing</h3><div class="chips"><span class="chip">Figma</span><span class="chip">Jest</span><span class="chip">Playwright</span><span class="chip">Sentry</span></div></div>
+    <h2 class="big" id="h-stack" style="max-width:16ch">Proven tools, chosen for your goals.</h2>
+    <div class="stack">
+      <div><h3>Frontend</h3><div class="chips"><span class="chip">React</span><span class="chip">Next.js</span><span class="chip">Vue</span><span class="chip">TypeScript</span><span class="chip">Tailwind CSS</span></div></div>
+      <div><h3>Mobile</h3><div class="chips"><span class="chip">React Native</span><span class="chip">Expo</span><span class="chip">Flutter</span><span class="chip">Swift</span><span class="chip">Kotlin</span></div></div>
+      <div><h3>Backend</h3><div class="chips"><span class="chip">Node.js</span><span class="chip">NestJS</span><span class="chip">Python</span><span class="chip">FastAPI</span><span class="chip">Django</span><span class="chip">Laravel</span></div></div>
+      <div><h3>Databases</h3><div class="chips"><span class="chip">PostgreSQL</span><span class="chip">MySQL</span><span class="chip">MongoDB</span><span class="chip">Redis</span><span class="chip">Firebase</span><span class="chip">Supabase</span></div></div>
+      <div><h3>Cloud and DevOps</h3><div class="chips"><span class="chip">AWS</span><span class="chip">Google Cloud</span><span class="chip">Vercel</span><span class="chip">Docker</span><span class="chip">GitHub Actions</span></div></div>
+      <div><h3>CMS and e-commerce</h3><div class="chips"><span class="chip">WordPress</span><span class="chip">Shopify</span><span class="chip">WooCommerce</span><span class="chip">Strapi</span></div></div>
+      <div><h3>Payments and services</h3><div class="chips"><span class="chip">Stripe</span><span class="chip">Razorpay</span><span class="chip">PayPal</span><span class="chip">Twilio</span><span class="chip">Google Maps</span></div></div>
+      <div><h3>AI and automation</h3><div class="chips"><span class="chip">OpenAI</span><span class="chip">Claude API</span><span class="chip">LangChain</span><span class="chip">n8n</span><span class="chip">Zapier</span></div></div>
+      <div><h3>Design and testing</h3><div class="chips"><span class="chip">Figma</span><span class="chip">Jest</span><span class="chip">Playwright</span><span class="chip">Sentry</span></div></div>
     </div>
   </div>
 </section>
 
-<section id="process" aria-labelledby="h-process">
+<!-- PROCESS + ENGAGEMENT -->
+<section class="sec paper" id="process" aria-labelledby="h-proc">
   <div class="wrap">
     <div class="eyebrow">How we work</div>
-    <h2 id="h-process">From first call to live product</h2>
+    <h2 class="big" id="h-proc" style="max-width:16ch">From first call to live product.</h2>
     <div class="proc">
-      <div class="pstep"><h3>Discovery</h3><p>A free call about your goals, users and budget.</p></div>
-      <div class="pstep"><h3>Proposal</h3><p>Clear scope, price and timeline in writing.</p></div>
-      <div class="pstep"><h3>Design</h3><p>Prototypes you approve before any code.</p></div>
-      <div class="pstep"><h3>Build</h3><p>Short sprints with regular demos and updates.</p></div>
-      <div class="pstep"><h3>Launch</h3><p>Testing, deployment and store submission.</p></div>
-      <div class="pstep"><h3>Support</h3><p>Warranty period, then optional monthly care.</p></div>
+      <div class="pstep reveal"><h3>Discovery</h3><p>A free call about your goals, users and budget.</p></div>
+      <div class="pstep reveal"><h3>Proposal</h3><p>Clear scope, price and timeline in writing.</p></div>
+      <div class="pstep reveal"><h3>Design</h3><p>Prototypes you approve before any code.</p></div>
+      <div class="pstep reveal"><h3>Build</h3><p>Short sprints with regular demos and updates.</p></div>
+      <div class="pstep reveal"><h3>Launch</h3><p>Testing, deployment and store submission.</p></div>
+      <div class="pstep reveal"><h3>Support</h3><p>Warranty period, then optional monthly care.</p></div>
+    </div>
+    <div class="two">
+      <div><div class="eyebrow">Why AA Studio</div>
+        <ul class="why">
+          <li><svg class="ico"><use href="#i-key"/></svg><div><b>You own everything</b><span>Source code, accounts and documentation are yours from day one.</span></div></li>
+          <li><svg class="ico"><use href="#i-eye"/></svg><div><b>Transparent</b><span>Fixed milestones, honest estimates and regular progress updates.</span></div></li>
+          <li><svg class="ico"><use href="#i-growth"/></svg><div><b>Business first</b><span>We build what moves your numbers, not what is merely interesting.</span></div></li>
+          <li><svg class="ico"><use href="#i-shield"/></svg><div><b>Built to last</b><span>Clean, secure, scalable code that the next developer can pick up.</span></div></li>
+        </ul></div>
+      <div><div class="eyebrow">Ways to work together</div>
+        <div class="tablewrap"><table><thead><tr><th>Model</th><th>Best for</th><th>Billing</th></tr></thead><tbody>
+          <tr><td>Fixed-price project</td><td>A clearly defined scope</td><td>Milestone payments</td></tr>
+          <tr><td>Retainer</td><td>Ongoing work and changing requirements</td><td>Hourly or monthly</td></tr>
+          <tr><td>Part-time team extension</td><td>Startups that need extra developers</td><td>Monthly</td></tr>
+          <tr><td>Maintenance plan</td><td>Live products that need care</td><td>Monthly</td></tr></tbody></table></div></div>
     </div>
   </div>
 </section>
 
-<section style="padding-top:0" aria-labelledby="h-why">
-  <div class="wrap">
-    <div class="eyebrow">Why AA</div>
-    <h2 id="h-why">Senior people, straight answers</h2>
-    <div class="why">
-      <div class="card"><svg class="ico"><use href="#i-key"/></svg><h3>You own everything</h3><p>Source code, accounts and documentation are yours from day one.</p></div>
-      <div class="card"><svg class="ico"><use href="#i-eye"/></svg><h3>Transparent</h3><p>Fixed milestones, honest estimates and regular progress updates.</p></div>
-      <div class="card"><svg class="ico"><use href="#i-growth"/></svg><h3>Business first</h3><p>We build what moves your numbers, not what is merely interesting.</p></div>
-      <div class="card"><svg class="ico"><use href="#i-shield"/></svg><h3>Built to last</h3><p>Clean, secure, scalable code that the next developer can pick up.</p></div>
-    </div>
-    <div class="eng">
-      <h3>Ways to work together</h3>
-      <div class="tablewrap">
-        <table>
-          <thead><tr><th>Model</th><th>Best for</th><th>Billing</th></tr></thead>
-          <tbody>
-            <tr><td>Fixed-price project</td><td>A clearly defined scope</td><td>Milestone payments</td></tr>
-            <tr><td>Retainer</td><td>Ongoing work and changing requirements</td><td>Hourly or monthly</td></tr>
-            <tr><td>Part-time team extension</td><td>Startups that need extra developers</td><td>Monthly</td></tr>
-            <tr><td>Maintenance plan</td><td>Live products that need care</td><td>Monthly</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="contact" style="padding-top:0" aria-labelledby="h-contact">
-  <div class="wrap">
-    <div class="contact">
-      <svg class="logo-bg" viewBox="0 0 120 80" aria-hidden="true"><use href="#logo"/></svg>
-      <div>
-        <h2 id="h-contact">Tell us what you want to build.</h2>
-        <p>Share your idea and we will reply within 24 hours with next steps. The first discovery call is free.</p>
-      </div>
-      <div class="rows">
-        <div class="row"><svg class="ico"><use href="#i-call"/></svg><div><small>Phone and WhatsApp</small><b id="phone">+91 9869783690</b></div><button class="copy" data-copy="#phone" type="button">Copy</button></div>
-        <div class="row"><svg class="ico"><use href="#i-mail"/></svg><div><small>Email</small><b id="mail">activeabhijeet.works@gmail.com</b></div><button class="copy" data-copy="#mail" type="button">Copy</button></div>
-        <div class="row"><svg class="ico"><use href="#i-pin"/></svg><div><small>Location</small><b>Mumbai, India</b></div></div>
-      </div>
+<!-- CONTACT -->
+<section class="sec dark" id="contact" aria-labelledby="h-contact">
+  <div class="wrap contact">
+    <div><div class="eyebrow">Start a project</div><h2 id="h-contact">Tell us what you want to build.</h2><p class="lead">Share your idea and we will reply within 24 hours with next steps. The first discovery call is free.</p></div>
+    <div class="rows">
+      <div class="row"><svg class="ico"><use href="#i-call"/></svg><div><small>Phone and WhatsApp</small><b id="phone">+91 9869783690</b></div><button class="copy" data-copy="#phone" type="button">Copy</button></div>
+      <div class="row"><svg class="ico"><use href="#i-mail"/></svg><div><small>Email</small><b id="mail">activeabhijeet.works@gmail.com</b></div><button class="copy" data-copy="#mail" type="button">Copy</button></div>
+      <div class="row"><svg class="ico"><use href="#i-pin"/></svg><div><small>Location</small><b>Mumbai, India</b></div></div>
     </div>
   </div>
 </section>
@@ -245,15 +472,16 @@
 
 <footer role="contentinfo">
   <div class="wrap">
-    <span style="display:inline-flex;align-items:center;gap:10px"><svg class="logo" style="width:40px;height:27px" aria-hidden="true"><use href="#logo"/></svg>AA Studio · Mumbai</span>
-    <span>Websites · Mobile apps · SaaS</span>
+    <span class="f g1" style="gap:10px"><svg class="logo" style="width:40px;height:27px" aria-hidden="true"><use href="#logo"/></svg>AA Studio · Mumbai</span>
+    <span>Websites · Mobile apps · SaaS · Business software</span>
   </div>
 </footer>
 
-
-<script src="js/nav.js" defer></script>
-<script src="js/reveal.js" defer></script>
-<script src="js/counters.js" defer></script>
-<script src="js/copy.js" defer></script>
+<script src="js/nav.js?v=3" defer></script>
+<script src="js/reveal.js?v=3" defer></script>
+<script src="js/parallax.js?v=3" defer></script>
+<script src="js/stage.js?v=3" defer></script>
+<script src="js/counters.js?v=3" defer></script>
+<script src="js/copy.js?v=3" defer></script>
 </body>
 </html>
