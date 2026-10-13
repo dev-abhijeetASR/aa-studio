@@ -15,4 +15,15 @@ document.querySelectorAll('.reveal,.reveal-clip').forEach(function(el,i){
   if(!el.style.getPropertyValue('--i'))el.style.setProperty('--i',Math.min(sibs,5));
   io.observe(el);
 });
+
+/* failsafe: never leave content hidden if the observer is slow or unsupported */
+function sweep(){
+  var vh=innerHeight;
+  document.querySelectorAll('.reveal:not(.is-in),.reveal-clip:not(.is-in)').forEach(function(el){
+    var r=el.getBoundingClientRect();
+    if(r.top<vh*.92&&r.bottom>0){el.classList.add('is-in');io.unobserve(el);}
+  });
+}
+addEventListener('scroll',sweep,{passive:true});
+setTimeout(sweep,1200);
 })();
