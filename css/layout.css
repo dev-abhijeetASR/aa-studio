@@ -266,3 +266,7 @@ h2.big{font-size:clamp(30px,3.9vw,54px);line-height:1;letter-spacing:-.035em}
   @keyframes bobv{50%{--bob:-9px}}
   @keyframes bobt{50%{transform:translateY(-8px)}}
 }
+
+/* keep the hero composition fully inside the screen */
+@media (max-width:1280px){.hero-stage{margin-right:0}.hs-dash{right:0}}
+@media (max-width:980px){.hs-phone.p1{left:2%}.hs-phone.p2{left:19%}}
