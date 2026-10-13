@@ -229,7 +229,7 @@ mark{background:#FDE68A;border-radius:.2em;padding:0 .15em;color:inherit}
   .stage[data-view="mobile"]{margin-bottom:62vw}
   .ld{grid-template-columns:1fr}.ld-side{display:none}
   .at{grid-template-columns:1fr}.at-side{display:none}
-  .sp-body{grid-template-columns:1fr}.flow{display:none}
+  .sp-body{grid-template-columns:1fr}.card-m.flow{display:none}
   .float{font-size:10.5px;padding:8px 10px}.float b{font-size:16px}
   .float.plan{display:none}
   .float.palette{left:6%;width:70%;top:-26px}
